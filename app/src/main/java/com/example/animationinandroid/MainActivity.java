@@ -1,5 +1,6 @@
 package com.example.animationinandroid;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+        //Status bar color
+        getWindow().setStatusBarColor(Color.parseColor("#00C853") );
+        //Navigation bar color
+        getWindow().setNavigationBarColor(Color.parseColor("#C51162") );
         setContentView(R.layout.activity_main);
 
         panda = findViewById(R.id.panda);
