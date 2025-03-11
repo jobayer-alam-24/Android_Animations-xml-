@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="15dp"
+        android:layout_marginBottom="25dp"
         >
 
         <ImageView
@@ -110,7 +111,7 @@
             android:textSize="25sp"
             android:background="#F50057"
             android:textColor="@color/white"
-            android:layout_marginBottom="13dp"
+            android:layout_marginBottom="20dp"
             />
 
     </LinearLayout>

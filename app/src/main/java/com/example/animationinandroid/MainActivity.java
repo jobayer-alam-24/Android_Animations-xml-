@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //Status bar color
         getWindow().setStatusBarColor(Color.parseColor("#00C853") );
         //Navigation bar color
-        getWindow().setNavigationBarColor(Color.parseColor("#C51162") );
+        getWindow().setNavigationBarColor(Color.parseColor("#16db1d") );
         setContentView(R.layout.activity_main);
 
         panda = findViewById(R.id.panda);
